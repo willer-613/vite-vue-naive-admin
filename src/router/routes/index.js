@@ -143,7 +143,7 @@ export const basicRoutes = [
     children: [
       {
         name: 'LinkGithubSrc',
-        path: 'https://github.com/zclzone/vue-naive-admin',
+        path: 'https://github.com/willer-613/vite-vue-naive-admin',
         meta: {
           title: '源码 - github',
           icon: IconGithub,
@@ -151,7 +151,7 @@ export const basicRoutes = [
       },
       {
         name: 'LinkGiteeSrc',
-        path: 'https://gitee.com/zclzone/vue-naive-admin',
+        path: 'https://gitee.com/willer-613/vite-vue-naive-admin',
         meta: {
           title: '源码 - gitee',
           icon: IconGitee,
@@ -159,7 +159,7 @@ export const basicRoutes = [
       },
       {
         name: 'LinkDocs',
-        path: 'https://zclzone.github.io/vue-naive-admin-docs',
+        path: 'https://willer-613.github.io/vite-vue-naive-admin-docs',
         meta: {
           title: '文档 - vuepress',
           icon: IconVue,
