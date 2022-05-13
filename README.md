@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/willer-613/vite-vue-naive-admin">
-    <img alt="Vite Vue Naive Admin Logo" width="200" src="https://assets.qszone.com/images/logo_qs.svg">
+    <img alt="Vite Vue Naive Admin Logo" width="200">
   </a>
 </p>
 <p align="center">
@@ -38,8 +38,6 @@
 ### 文档
 
 [Vue Naive Admin Docs](https://willer-613.github.io/vite-vue-naive-admin-docs)
-
-[羽雀文档：Vue Naive Admin](https://www.yuque.com/qszone/vite-vue-naive-admin)
 
 ### 构建
 
