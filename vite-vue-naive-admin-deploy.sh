@@ -1,4 +1,7 @@
 echo -e "---------docker Login--------"
+
+echo -e $1 $2
+
 docker login --username=$1 registry.cn-shanghai.aliyuncs.com --password=$2
 echo -e "---------docker Stop--------"
 docker stop vite-vue-naive-admin
