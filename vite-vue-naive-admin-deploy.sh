@@ -11,5 +11,5 @@ docker rmi registry.cn-shanghai.aliyuncs.com/willer-docker/vite-vue-naive-admin:
 echo -e "---------docker Pull--------"
 docker pull registry.cn-shanghai.aliyuncs.com/willer-docker/vite-vue-naive-admin:latest
 echo -e "---------docker Create and Start--------"
-docker run --rm -d -p 8081:80 --name vite-vue-naive-admin registry.cn-shanghai.aliyuncs.com/willer-docker/vite-vue-naive-admin:latest
+docker run --rm -d -p 8081:8081 --name vite-vue-naive-admin registry.cn-shanghai.aliyuncs.com/willer-docker/vite-vue-naive-admin:latest
 echo -e "---------deploy Success--------"
