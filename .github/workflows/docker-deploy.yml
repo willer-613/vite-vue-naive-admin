@@ -29,4 +29,4 @@ jobs:
           host: ${{ secrets.SSH_HOST }} 
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          script: cd ../ && export LIUNX_PASSWORD = ${{ secrets.DOCKER_PASSWORD }} && sh vite-vue-naive-admin-deploy.sh ${{ secrets.DOCKER_USERNAME }}
+          script: cd ../ && sh vite-vue-naive-admin-deploy.sh ${{ secrets.DOCKER_USERNAME }} {{ secrets.DOCKER_PASSWORD }}

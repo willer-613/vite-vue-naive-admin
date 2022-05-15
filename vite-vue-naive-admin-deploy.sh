@@ -1,5 +1,7 @@
 echo -e "---------docker Login--------"
 # docker login --username=$1 registry.cn-shanghai.aliyuncs.com --password=$2 --password-stdin
+echo -e "---------set variable--------"
+export LIUNX_PASSWORD = $2
 echo $LIUNX_PASSWORD | docker login --username $1 registry.cn-shanghai.aliyuncs.com --password-stdin
 echo -e "---------docker Stop--------"
 docker stop vite-vue-naive-admin
